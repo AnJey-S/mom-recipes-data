@@ -1,5 +1,2872 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-15T00:00:00Z",
-  "recipes": []
+  "published_at": "2026-11-16T00:00:00Z",
+  "recipes": [
+    {
+      "id": "oladi-na-kefire",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Оладьи на кефире",
+      "description": null,
+      "servings": 4,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "завтрак"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Кефир",
+          "amount": 250,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "3,2 %"
+        },
+        {
+          "id": "i2",
+          "name": "Мука",
+          "amount": 225,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Соль",
+          "amount": 0.25,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Сода",
+          "amount": 0.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Масло растительное",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для жарки"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Подготовить все ингредиенты. Кефир заранее подогреть (на плите или в микроволновке): он должен стать хорошо тёплым, но не свернуться.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Взбить яйцо с солью и сахаром.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3",
+            "i4",
+            "i5"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Добавить подогретый кефир и перемешать до однородной массы.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Постепенно добавлять муку (желательно просеять — оладьи получатся воздушнее). Ориентироваться не на количество муки, а на консистенцию: тесто должно быть как густая сметана и медленно стекать с ложки.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Снова всё перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 6,
+          "text": "Добавить соду и снова перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "Дать тесту постоять 2–3 минуты.",
+          "timer_sec": 180,
+          "timer_label": "Тесто стоит",
+          "ingredient_ids": []
+        },
+        {
+          "n": 8,
+          "text": "Налить в сковороду растительное масло — ровно столько, чтобы оно полностью покрывало дно. Жарить на среднем огне.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7"
+          ]
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "testo-na-pitstsu",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Тесто на пиццу и томатный соус",
+      "description": null,
+      "servings": 4,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "второе"
+      ],
+      "total_time_min": 90,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Вода",
+          "amount": 200,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "другое",
+          "optional": false,
+          "note": "тёплая"
+        },
+        {
+          "id": "i2",
+          "name": "Дрожжи сухие",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Сахар",
+          "amount": 2,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Соль",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Мука",
+          "amount": 400,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "примерно"
+        },
+        {
+          "id": "i6",
+          "name": "Масло растительное",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Помидоры",
+          "amount": 250,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "для соуса"
+        },
+        {
+          "id": "i8",
+          "name": "Базилик сухой",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i9",
+          "name": "Чеснок",
+          "amount": 3,
+          "unit": "зубчик",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "2–3 зубчика"
+        },
+        {
+          "id": "i10",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": "для соуса"
+        },
+        {
+          "id": "i11",
+          "name": "Сахар",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для соуса"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Тесто: дрожжи и сахар растворить в тёплой воде, добавить 2–3 ст. ложки муки. Перемешать и оставить на 15 минут.",
+          "timer_sec": 900,
+          "timer_label": "Опара",
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i5"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Добавить соль и растительное масло, постепенно добавлять муку. Тесто должно быть мягким и эластичным. Если липнет к рукам — смазать руки маслом. Муку больше НЕ добавлять! Месить тесто около 5 минут.",
+          "timer_sec": 300,
+          "timer_label": "Месить тесто",
+          "ingredient_ids": [
+            "i4",
+            "i5",
+            "i6"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Убрать тесто в смазанную маслом ёмкость и оставить на 40–60 минут.",
+          "timer_sec": 3600,
+          "timer_label": "Тесто подходит",
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Соус: на растительном масле обжарить помидоры, выпарить лишнюю жидкость.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6",
+            "i7"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Добавить мелко нарезанный чеснок, базилик, соль и сахар.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i8",
+            "i9",
+            "i10",
+            "i11"
+          ]
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "shokoladnyy-pirog",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Шоколадный пирог",
+      "description": "Постный, без яиц. В книге только продукты — шаги дописаны по стандартному рецепту, проверьте.",
+      "servings": 8,
+      "form": {
+        "shape": "round",
+        "diameter_cm": 22
+      },
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 60,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Вода",
+          "amount": 200,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "другое",
+          "optional": false,
+          "note": "тёплая, 40 °C"
+        },
+        {
+          "id": "i2",
+          "name": "Масло растительное",
+          "amount": 80,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Сахар",
+          "amount": 130,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Мёд",
+          "amount": 80,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Сода",
+          "amount": 0.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Мука",
+          "amount": 200,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Какао",
+          "amount": 40,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i8",
+          "name": "Орехи или изюм",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": true,
+          "note": null
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Смешать тёплую воду, растительное масло, сахар и мёд до растворения сахара.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Муку смешать с какао и содой, просеять и добавить к жидкой части, перемешать до однородности. По желанию добавить орехи или изюм.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5",
+            "i6",
+            "i7",
+            "i8"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Вылить тесто в смазанную форму и выпекать при 180 °C около 40 минут — до сухой шпажки.",
+          "timer_sec": 2400,
+          "timer_label": "Выпекать пирог",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tort-bez-miksera",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Торт без миксера",
+      "description": "Выходит очень воздушным и вкусным. Крем стоит обильно размазывать по коржам — всё впитается.",
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 60,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Мука",
+          "amount": 140,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Сгущённое молоко",
+          "amount": 1,
+          "unit": "банка",
+          "scalable": true,
+          "round_step": null,
+          "category": "консервы",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Масло сливочное",
+          "amount": 100,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Яйца",
+          "amount": 2,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Сода",
+          "amount": 0.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Какао",
+          "amount": 2,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Лимонный сок",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "погасить соду"
+        },
+        {
+          "id": "i8",
+          "name": "Сметана",
+          "amount": 400,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "20 %, для крема"
+        },
+        {
+          "id": "i9",
+          "name": "Сахар",
+          "amount": 100,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для крема; в записи 200 г, но 100 г достаточно"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Бисквит: в растопленное сливочное масло добавить сгущёнку, смешать в единую массу.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3",
+            "i2"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Вбить 2 яйца, перемешать, высыпать сразу всю муку и аккуратно перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i4",
+            "i1"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Добавить соду, гашенную лимонным соком, перемешать. Тесто по консистенции как густая сметана.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5",
+            "i7"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Застелить противень пергаментом, вылить 2/3 теста и разровнять.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 5,
+          "text": "В оставшееся тесто добавить 2 ч.л. какао, хорошо перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 6,
+          "text": "Вылить шоколадное тесто рядом со сливочным, разровнять.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 7,
+          "text": "Поставить в духовку при 180 °C на 10–12 минут.",
+          "timer_sec": 720,
+          "timer_label": "Бисквит",
+          "ingredient_ids": []
+        },
+        {
+          "n": 8,
+          "text": "Крем: в сметану добавить сахар, перемешать и оставить на 7–10 минут до растворения сахара.",
+          "timer_sec": 600,
+          "timer_label": "Крем",
+          "ingredient_ids": [
+            "i8",
+            "i9"
+          ]
+        },
+        {
+          "n": 9,
+          "text": "Корж готов. Разрезать на 3 равные части, обрезать края: должно получиться 2 сливочных и 1 шоколадный корж.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 10,
+          "text": "Собрать торт, промазывая коржи кремом. Сверху можно посыпать раскрошенными обрезками, шоколадной крошкой, орехами.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "sharlotka-bez-miksera",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Шарлотка без миксера",
+      "description": null,
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 80,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Яйца",
+          "amount": 4,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Мука пшеничная",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Сода",
+          "amount": 1,
+          "unit": "щепотка",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Яблоки",
+          "amount": 3,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Корица",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Масло сливочное",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "смазать форму"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "В глубокую ёмкость разбить яйца, добавить сахар.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Хорошо взбить венчиком до образования белой пены.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 3,
+          "text": "Добавить соду в муку, просеять через сито. Хорошо перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Смазать форму для выпекания.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Перелить часть теста в форму, разровнять.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 6,
+          "text": "Распределить по тесту очищенные и произвольно нарезанные яблоки.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "Посыпать корицей и залить оставшимся тестом.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 8,
+          "text": "Можно ещё сверху присыпать корицей.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 9,
+          "text": "Поместить форму в духовой шкаф на 60 минут при 160 °C. Однажды приготовилась быстрее, чем за 30 минут, — следите и проверяйте шпажкой с 30-й минуты.",
+          "timer_sec": 1800,
+          "timer_label": "Проверить шарлотку",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "bulochki-s-makom",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Булочки с маком",
+      "description": "Булочки очень вкусные, это точно стоит приготовить ещё раз.",
+      "servings": 12,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 180,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Вода",
+          "amount": 120,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "другое",
+          "optional": false,
+          "note": "тёплая"
+        },
+        {
+          "id": "i2",
+          "name": "Молоко",
+          "amount": 120,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "тёплое"
+        },
+        {
+          "id": "i3",
+          "name": "Дрожжи сухие",
+          "amount": 7,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Сахар",
+          "amount": 50,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Соль",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Мука",
+          "amount": 500,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i8",
+          "name": "Масло сливочное",
+          "amount": 50,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "мягкое"
+        },
+        {
+          "id": "i9",
+          "name": "Ванилин",
+          "amount": 1,
+          "unit": "щепотка",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i10",
+          "name": "Мак",
+          "amount": 120,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i11",
+          "name": "Вода или молоко",
+          "amount": 50,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "для начинки"
+        },
+        {
+          "id": "i12",
+          "name": "Сахар",
+          "amount": 60,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для начинки"
+        },
+        {
+          "id": "i13",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": "белок — в начинку, желток — смазать булочки"
+        },
+        {
+          "id": "i14",
+          "name": "Молоко",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "для смазывания"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Готовим тесто. Тёплую воду и молоко (обязательно тёплые) смешать, добавить дрожжи и сахар.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i5"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Добавить яйцо, соль и хорошо перемешать венчиком.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i4",
+            "i6"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Вводить муку постепенно, обязательно просеянную. Добавить щепотку ванилина.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7",
+            "i9"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Вмешать в тесто мягкое сливочное масло. Должно получиться мягкое, не липкое тесто.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i8"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Накрыть тесто пищевой плёнкой и оставить в тёплом месте на 1,5 часа.",
+          "timer_sec": 5400,
+          "timer_label": "Тесто подходит",
+          "ingredient_ids": []
+        },
+        {
+          "n": 6,
+          "text": "Начинка: мак смешать с сахаром и добавить 50 мл воды или молока. Перенести на средний огонь и перемешивать, пока мак не впитает всю жидкость.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i10",
+            "i11",
+            "i12"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "Мак сразу же измельчить блендером или мясорубкой — иначе он вытекает из теста.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 8,
+          "text": "В остывшую начинку добавить 1 белок, перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i13"
+          ]
+        },
+        {
+          "n": 9,
+          "text": "Подошедшее тесто раскатать в пласт толщиной 5 мм.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 10,
+          "text": "Сверху выложить начинку и равномерно распределить, отступив от края 2–3 см.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 11,
+          "text": "Завернуть в рулет, защипнуть края.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 12,
+          "text": "Разрезать острым ножом на кусочки — так срез будет ровным.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 13,
+          "text": "Выложить на бумагу для выпечки срезом вверх и оставить на 15–20 минут.",
+          "timer_sec": 1200,
+          "timer_label": "Булочки подходят",
+          "ingredient_ids": []
+        },
+        {
+          "n": 14,
+          "text": "Смешать желток с 1 ст. ложкой молока и смазать этой смесью булочки.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i13",
+            "i14"
+          ]
+        },
+        {
+          "n": 15,
+          "text": "Выпекать при 180 °C 20 минут. После выпечки смазать сливочным или растительным маслом.",
+          "timer_sec": 1200,
+          "timer_label": "Выпекать булочки",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "myaso-po-frantsuzski",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Мясо по-французски",
+      "description": "Последний шаг дописан по стандартному рецепту — в книге он оборвался.",
+      "servings": 3,
+      "form": null,
+      "tags": [
+        "второе",
+        "праздник"
+      ],
+      "total_time_min": 70,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Куриное филе",
+          "amount": 400,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "мясо",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Картофель",
+          "amount": 4,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Сыр твёрдый",
+          "amount": 150,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Помидоры",
+          "amount": 3,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Лук",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Майонез",
+          "amount": 3,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Масло растительное",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i8",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i9",
+          "name": "Специи",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Подготовить все необходимые ингредиенты. Почистить и нарезать картофель кружочками.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Выложить картофель в форму для запекания, немного полить растительным маслом, посолить и посыпать специями. Перемешать и равномерно распределить по всей форме.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2",
+            "i7",
+            "i8",
+            "i9"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Посыпать сверху сыром.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Куриное филе нарезать небольшими кусочками (не обязательно) и отбить.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Отбитое мясо разложить равномерно следующим слоем и смазать майонезом.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i6"
+          ]
+        },
+        {
+          "n": 6,
+          "text": "Очистить лук, мелко нарезать и выложить на куриное филе.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "Снова посыпать сыром.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ]
+        },
+        {
+          "n": 8,
+          "text": "Помидоры нарезать кружочками и выложить по всей поверхности.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i4"
+          ]
+        },
+        {
+          "n": 9,
+          "text": "Можно сверху добавить ещё сыра, но так, чтобы он не закрывал помидоры полностью.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ]
+        },
+        {
+          "n": 10,
+          "text": "Поставить форму в духовку, предварительно разогретую до 180 °C, и запекать около 40 минут.",
+          "timer_sec": 2400,
+          "timer_label": "Запекать",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "zavarnoe-testo-na-pelmeni",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Заварное тесто на пельмени",
+      "description": "Вес теста примерно 800 г.",
+      "servings": 6,
+      "form": null,
+      "tags": [
+        "второе"
+      ],
+      "total_time_min": 45,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Мука",
+          "amount": 500,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Вода",
+          "amount": 250,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "другое",
+          "optional": false,
+          "note": "горячая, 70–75 °C"
+        },
+        {
+          "id": "i3",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Соль",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Масло растительное",
+          "amount": 25,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "без запаха"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "В муку добавить соль, яйцо и растительное масло. Слегка перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i3",
+            "i4",
+            "i5"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Сдвинуть яйцо немного к краю миски, чтобы оно не сварилось. Залить муку горячей водой, постоянно перемешивая.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Вымешивать тесто руками, пока не остынет (примерно 7 минут).",
+          "timer_sec": 420,
+          "timer_label": "Месить тесто",
+          "ingredient_ids": []
+        },
+        {
+          "n": 4,
+          "text": "Тесто не липнет ни к рукам, ни к поверхности, поэтому дополнительно муку можно не добавлять.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        },
+        {
+          "n": 5,
+          "text": "Накрыть полотенцем и дать тесту отдохнуть 20–30 минут.",
+          "timer_sec": 1800,
+          "timer_label": "Тесто отдыхает",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tushenaya-pechen",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Тушёная печень",
+      "description": "Подавать можно с рисом и любым другим гарниром.",
+      "servings": 3,
+      "form": null,
+      "tags": [
+        "второе"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Печень куриная",
+          "amount": 500,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "мясо",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Лук репчатый",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Томатная паста",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "консервы",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Масло сливочное",
+          "amount": 80,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Промыть печень и нарезать на небольшие кусочки.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Положить на сковороду с растопленным сливочным маслом.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i4"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Добавить лук.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Добавить томатную пасту, перемешать и тушить до готовности 15–20 минут.",
+          "timer_sec": 1200,
+          "timer_label": "Тушить печень",
+          "ingredient_ids": [
+            "i3"
+          ]
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "kurochka-karri",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Курочка карри",
+      "description": "Вкусно подавать с рисом.",
+      "servings": 4,
+      "form": null,
+      "tags": [
+        "второе"
+      ],
+      "total_time_min": 50,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Куриное филе",
+          "amount": 600,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "мясо",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Лук",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Помидоры",
+          "amount": 2,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "1–2"
+        },
+        {
+          "id": "i4",
+          "name": "Чеснок",
+          "amount": 2,
+          "unit": "зубчик",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "1–2 зубчика"
+        },
+        {
+          "id": "i5",
+          "name": "Перец острый",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "чили"
+        },
+        {
+          "id": "i6",
+          "name": "Имбирь",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": false,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "небольшой кусочек"
+        },
+        {
+          "id": "i7",
+          "name": "Сметана",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i8",
+          "name": "Томатная паста",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "консервы",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i9",
+          "name": "Карри",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i10",
+          "name": "Вода",
+          "amount": 100,
+          "unit": "мл",
+          "scalable": true,
+          "round_step": null,
+          "category": "другое",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i11",
+          "name": "Масло растительное",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i12",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i13",
+          "name": "Рис",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "на гарнир"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Нарезать курицу средними кусочками.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Лук мелко нарезать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Измельчить чеснок.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i4"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Снять кожицу с помидоров и порезать средними кусочками.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ]
+        },
+        {
+          "n": 5,
+          "text": "Мелко нарезать перец чили.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5"
+          ]
+        },
+        {
+          "n": 6,
+          "text": "Натереть имбирь.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "На растительном масле обжарить лук и чеснок на среднем огне 3–4 минуты.",
+          "timer_sec": 240,
+          "timer_label": "Лук и чеснок",
+          "ingredient_ids": [
+            "i11",
+            "i2",
+            "i4"
+          ]
+        },
+        {
+          "n": 8,
+          "text": "Добавить имбирь и перец, обжаривать 2–3 минуты.",
+          "timer_sec": 180,
+          "timer_label": "Имбирь и перец",
+          "ingredient_ids": [
+            "i6",
+            "i5"
+          ]
+        },
+        {
+          "n": 9,
+          "text": "Добавить помидоры и обжаривать ещё 3 минуты.",
+          "timer_sec": 180,
+          "timer_label": "Помидоры",
+          "ingredient_ids": [
+            "i3"
+          ]
+        },
+        {
+          "n": 10,
+          "text": "Добавить томатную пасту и карри, перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i8",
+            "i9"
+          ]
+        },
+        {
+          "n": 11,
+          "text": "Добавить воду и кипятить 1 минуту.",
+          "timer_sec": 60,
+          "timer_label": "Кипятить",
+          "ingredient_ids": [
+            "i10"
+          ]
+        },
+        {
+          "n": 12,
+          "text": "Добавить курицу, уменьшить огонь, накрыть крышкой и тушить 5 минут.",
+          "timer_sec": 300,
+          "timer_label": "Тушить курицу",
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 13,
+          "text": "Посолить по вкусу и тушить ещё 7 минут.",
+          "timer_sec": 420,
+          "timer_label": "Тушить ещё",
+          "ingredient_ids": [
+            "i12"
+          ]
+        },
+        {
+          "n": 14,
+          "text": "Добавить сметану, довести до кипения и выключить.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7"
+          ]
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tort-medovyy",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Торт «Медовый»",
+      "description": "Часть шагов дописана по стандартному рецепту — в записи её не было. Проверьте.",
+      "servings": 10,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 90,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Масло сливочное",
+          "amount": 30,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "для коржей"
+        },
+        {
+          "id": "i3",
+          "name": "Мёд",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Сахар",
+          "amount": 0.5,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для коржей"
+        },
+        {
+          "id": "i5",
+          "name": "Сода",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Мука",
+          "amount": 1.5,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для крема: 0,5 + 0,5 стакана"
+        },
+        {
+          "id": "i8",
+          "name": "Молоко",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "для крема: 0,5 горячего + 0,5 холодного"
+        },
+        {
+          "id": "i9",
+          "name": "Мука",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "для крема"
+        },
+        {
+          "id": "i10",
+          "name": "Масло сливочное",
+          "amount": 200,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "для крема"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Коржи: яйцо, сливочное масло, мёд и сахар размешать на паровой бане.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Добавить 1 ч.л. соды и 1,5 стакана муки, замесить тесто.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5",
+            "i6"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Раскатать 6 тонких коржей. Противень посыпать мукой.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Выпекать коржи по одному при 180 °C 3–5 минут до золотистого цвета.",
+          "timer_sec": 300,
+          "timer_label": "Корж",
+          "ingredient_ids": []
+        },
+        {
+          "n": 5,
+          "text": "Крем: 0,5 стакана сахара и 0,5 стакана молока вскипятить.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7",
+            "i8"
+          ]
+        },
+        {
+          "n": 6,
+          "text": "Добавить 1 ст.л. муки, разведённую в 0,5 стакана холодного молока, и заварить молочный кисель.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i8",
+            "i9"
+          ]
+        },
+        {
+          "n": 7,
+          "text": "Остудить и вбить 0,5 стакана сахара и 200 г сливочного масла.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7",
+            "i10"
+          ]
+        },
+        {
+          "n": 8,
+          "text": "Промазать остывшие коржи кремом и собрать торт.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "kovrizhka",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Коврижка",
+      "description": "Время выпекания дописано — в записи «до готовности».",
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 60,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Варенье",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Масло растительное",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Сода",
+          "amount": 1.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Чай (заварка)",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "напитки",
+          "optional": false,
+          "note": "0,5 + 0,5 стакана"
+        },
+        {
+          "id": "i7",
+          "name": "Мука",
+          "amount": 1.4,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "0,7 + 0,7 стакана"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Сахар растереть с яйцом и 2 ст.л. варенья, добавить 1 ст.л. растительного масла и 1,5 ч.л. соды.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4",
+            "i5"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Влить 0,5 стакана чая (заварки), тщательно размешать и добавить 0,7 стакана муки.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6",
+            "i7"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Добавить ещё 0,5 стакана чая и 0,7 стакана муки, перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6",
+            "i7"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Печь в духовке при 180 °C до готовности, около 30–40 минут (проверить шпажкой).",
+          "timer_sec": 2400,
+          "timer_label": "Коврижка",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "pirozhnoe-kartoshka",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Пирожное «Картошка»",
+      "description": null,
+      "servings": 10,
+      "form": null,
+      "tags": [
+        "десерт"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Печенье",
+          "amount": 500,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Какао",
+          "amount": 3,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Сахар",
+          "amount": 300,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Масло сливочное",
+          "amount": 250,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "или маргарин"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Печенье прокрутить через мясорубку.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Добавить какао, сахар и сливочное масло (или маргарин), всё перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2",
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Сделать пирожные и остудить в холодильнике.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "yablochnyy-pirog",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Яблочный пирог",
+      "description": "Время выпекания дописано — в записи «до готовности».",
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 70,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Тесто дрожжевое",
+          "amount": 650,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "500–800 г"
+        },
+        {
+          "id": "i2",
+          "name": "Яблоки",
+          "amount": 7,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "6–7"
+        },
+        {
+          "id": "i3",
+          "name": "Лимон",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "овощи-фрукты",
+          "optional": false,
+          "note": "сок"
+        },
+        {
+          "id": "i4",
+          "name": "Сахар",
+          "amount": 100,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Чай сладкий",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "напитки",
+          "optional": false,
+          "note": "или постное масло, 1–2 ст.л."
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Яблоки нарезать дольками, обмакнуть в сок лимона, чтобы не почернели, и посыпать сахаром.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2",
+            "i3",
+            "i4"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Тесто раскатать овалом и по краю сделать окантовку в виде косички или перекрученной верёвочки, смазать края чаем.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i5"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Выложить на тесто яблоки в виде «чешуйки».",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2"
+          ]
+        },
+        {
+          "n": 4,
+          "text": "Выпекать в духовке при 180–200 °C до готовности, около 30–40 минут.",
+          "timer_sec": 2400,
+          "timer_label": "Пирог",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tort-chernyy-prints",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Торт «Чёрный принц»",
+      "description": "Часть шагов дописана по стандартному рецепту — в записи её не было. Проверьте.",
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 70,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Яйца",
+          "amount": 2,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i3",
+          "name": "Какао",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Сметана",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Мука",
+          "amount": 1.5,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Масло сливочное",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i7",
+          "name": "Соль",
+          "amount": 1,
+          "unit": "щепотка",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i8",
+          "name": "Сода",
+          "amount": 0.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "гашёная; в записи без количества"
+        },
+        {
+          "id": "i9",
+          "name": "Сгущённое молоко варёное",
+          "amount": 1,
+          "unit": "банка",
+          "scalable": true,
+          "round_step": null,
+          "category": "консервы",
+          "optional": false,
+          "note": "для крема, крем любой"
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Яйца взбить с сахаром.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Добавить какао, сметану, муку, сливочное масло, соль и гашёную соду, перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3",
+            "i4",
+            "i5",
+            "i6",
+            "i7",
+            "i8"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Выпекать в духовке при 180 °C около 40 минут.",
+          "timer_sec": 2400,
+          "timer_label": "Выпекать корж",
+          "ingredient_ids": []
+        },
+        {
+          "n": 4,
+          "text": "Остывший корж разрезать и промазать кремом — любым, например варёной сгущёнкой.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i9"
+          ]
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tvorozhniki",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Творожники",
+      "description": "Часть шагов дописана по стандартному рецепту — в записи её не было. Проверьте.",
+      "servings": 6,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 45,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Творог",
+          "amount": 500,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Маргарин",
+          "amount": 200,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": "1 пачка"
+        },
+        {
+          "id": "i3",
+          "name": "Мука",
+          "amount": 1.5,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Соль",
+          "amount": 1,
+          "unit": "щепотка",
+          "scalable": false,
+          "round_step": null,
+          "category": "специи",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Сода",
+          "amount": 1,
+          "unit": "щепотка",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i6",
+          "name": "Сахар",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Смешать творог, размягчённый маргарин и муку, добавить соль, соду и сахар по вкусу, замесить тесто.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4",
+            "i5",
+            "i6"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Раскатать тесто, вырезать лепёшки, посыпать сахаром и сложить пополам.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i6"
+          ]
+        },
+        {
+          "n": 3,
+          "text": "Выпекать в духовке при 180 °C около 20–25 минут.",
+          "timer_sec": 1500,
+          "timer_label": "Творожники",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "id": "tort-sladkiy",
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "title": "Торт «Сладкий»",
+      "description": "Время выпекания дописано — в записи «до готовности».",
+      "servings": 8,
+      "form": null,
+      "tags": [
+        "выпечка",
+        "десерт"
+      ],
+      "total_time_min": 45,
+      "photo": null,
+      "draft_text": null,
+      "ingredients": [
+        {
+          "id": "i1",
+          "name": "Мука",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i2",
+          "name": "Сода",
+          "amount": 1,
+          "unit": "ч.л.",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": "гашёная"
+        },
+        {
+          "id": "i3",
+          "name": "Сахар",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "round_step": null,
+          "category": "бакалея",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i4",
+          "name": "Масло сливочное",
+          "amount": 100,
+          "unit": "г",
+          "scalable": true,
+          "round_step": null,
+          "category": "молочное",
+          "optional": false,
+          "note": null
+        },
+        {
+          "id": "i5",
+          "name": "Яйца",
+          "amount": 3,
+          "unit": "шт",
+          "scalable": true,
+          "round_step": null,
+          "category": "яйца",
+          "optional": false,
+          "note": null
+        }
+      ],
+      "steps": [
+        {
+          "n": 1,
+          "text": "Всё перемешать.",
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4",
+            "i5"
+          ]
+        },
+        {
+          "n": 2,
+          "text": "Выпекать в духовке при 180 °C до готовности, около 30 минут.",
+          "timer_sec": 1800,
+          "timer_label": "Торт",
+          "ingredient_ids": []
+        }
+      ],
+      "updated_at": "2026-11-16T00:00:00Z"
+    }
+  ]
 }
