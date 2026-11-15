@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-15T23:08:58Z",
+  "published_at": "2026-11-15T23:12:50Z",
   "recipes": [
     {
       "id": "oladi-na-kefire",
@@ -2996,6 +2996,128 @@
         }
       ],
       "updated_at": "2026-11-15T23:08:58Z"
+    },
+    {
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "description": "Идеально эластичные сырники с румяной корочкой",
+      "form": null,
+      "tags": [
+        "завтрак"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "id": "syrniki-iz-tvoroga",
+      "title": "Сырники из творога",
+      "servings": 4,
+      "ingredients": [
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "жирностью 9%",
+          "id": "i1",
+          "name": "Творог",
+          "amount": 350,
+          "unit": "г",
+          "scalable": true,
+          "category": "молочное"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "",
+          "id": "i2",
+          "name": "Куриное яйцо",
+          "amount": 2,
+          "unit": "шт",
+          "scalable": true,
+          "category": "яйца"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "",
+          "id": "i3",
+          "name": "Пшеничная мука",
+          "amount": 6,
+          "unit": "ст.л.",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "",
+          "id": "i4",
+          "name": "Сахар",
+          "amount": 2,
+          "unit": "ст.л.",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "",
+          "id": "i5",
+          "name": "Подсолнечное масло",
+          "amount": 5,
+          "unit": "ст.л.",
+          "scalable": true,
+          "category": "бакалея"
+        }
+      ],
+      "steps": [
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i4"
+          ],
+          "n": 1,
+          "text": "Протрите творог через мелкое сито, разомните вилкой и смешайте с яйцами и сахаром до однородности."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ],
+          "n": 2,
+          "text": "Добавьте муку и замесите тесто, чтобы оно стало эластичным и легко лепилось."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i5"
+          ],
+          "n": 3,
+          "text": "Разогрейте сковороду с маслом на среднем огне."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i3"
+          ],
+          "n": 4,
+          "text": "Сформируйте небольшие шарики из теста, обваляйте в муке, приплюсните и выложите на сковороду."
+        },
+        {
+          "timer_sec": 120,
+          "timer_label": "Обжаривать одну сторону",
+          "ingredient_ids": [],
+          "n": 5,
+          "text": "Жарьте сырники по 2 минуты с каждой стороны до золотистой корочки."
+        }
+      ],
+      "updated_at": "2026-11-15T23:12:50Z"
     }
   ]
 }
