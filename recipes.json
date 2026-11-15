@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-16T00:00:00Z",
+  "published_at": "2026-11-15T23:08:58Z",
   "recipes": [
     {
       "id": "oladi-na-kefire",
@@ -2867,6 +2867,135 @@
         }
       ],
       "updated_at": "2026-11-16T00:00:00Z"
+    },
+    {
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": "e7058413-4abc-4543-9d6c-230f3d74932c",
+      "description": null,
+      "form": null,
+      "tags": [
+        "гарнир",
+        "ужин"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "id": "farsh-s-ovoschami",
+      "title": "Фарш с овощами",
+      "servings": 4,
+      "ingredients": [
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i1",
+          "name": "Фарш",
+          "amount": 400,
+          "unit": "г",
+          "scalable": true,
+          "category": "мясо"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i2",
+          "name": "Рис",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i3",
+          "name": "Мексиканская смесь овощей",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "category": "заморозка"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i4",
+          "name": "Специи для мяса",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i5",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i6",
+          "name": "Перец",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        }
+      ],
+      "steps": [
+        {
+          "timer_sec": 300,
+          "timer_label": "Обжаривать фарш",
+          "ingredient_ids": [
+            "i1",
+            "i4",
+            "i5",
+            "i6"
+          ],
+          "n": 1,
+          "text": "Обжарить фарш, приправив солью, перцем и специями для мяса."
+        },
+        {
+          "timer_sec": 420,
+          "timer_label": "Обжаривать овощи",
+          "ingredient_ids": [
+            "i3"
+          ],
+          "n": 2,
+          "text": "Убрать фарш из сковороды и добавить мексиканскую смесь овощей. Обжарить овощи 6-7 минут."
+        },
+        {
+          "timer_sec": 300,
+          "timer_label": "Тушить фарш с овощами",
+          "ingredient_ids": [
+            "i1",
+            "i3"
+          ],
+          "n": 3,
+          "text": "Вернуть фарш в овощи и тушить под крышкой ещё 4-5 минут."
+        },
+        {
+          "timer_sec": 900,
+          "timer_label": "Готовить рис",
+          "ingredient_ids": [
+            "i2"
+          ],
+          "n": 4,
+          "text": "Промыть рис 5-7 раз холодной водой. Взять горячей воды вдвое больше, чем риса. Довести до кипения, поставить на слабый огонь и готовить до готовности примерно 15 минут."
+        }
+      ],
+      "updated_at": "2026-11-15T23:08:58Z"
     }
   ]
 }
