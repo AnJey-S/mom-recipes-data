@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-16T19:38:55Z",
+  "published_at": "2026-11-16T19:51:51Z",
   "recipes": [
     {
       "id": "oladi-na-kefire",
@@ -3457,6 +3457,153 @@
         }
       ],
       "updated_at": "2026-11-16T19:38:55Z"
+    },
+    {
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": null,
+      "description": "На основе картофельного пюре формируются котлеты с начинкой из варёных яиц и ароматного зелёного лука. Блюдо получается вкусным и достаточно сытным.",
+      "form": null,
+      "tags": [
+        "картофель",
+        "закуска"
+      ],
+      "total_time_min": 60,
+      "photo": null,
+      "draft_text": null,
+      "id": "kartofelnye-zrazy-s-yaytsom-i-zelyonym-lukom",
+      "title": "Картофельные зразы с яйцом и зелёным луком",
+      "servings": 6,
+      "ingredients": [
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i1",
+          "name": "Картофель",
+          "amount": 450,
+          "unit": "г",
+          "scalable": true,
+          "category": "овощи-фрукты"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i2",
+          "name": "Яйца",
+          "amount": 3,
+          "unit": "шт",
+          "scalable": true,
+          "category": "яйца"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i3",
+          "name": "Мука",
+          "amount": 50,
+          "unit": "г",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i4",
+          "name": "Лук зелёный",
+          "amount": 5,
+          "unit": "г",
+          "scalable": true,
+          "category": "овощи-фрукты"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i5",
+          "name": "Масло растительное",
+          "amount": 50,
+          "unit": "мл",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i6",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i7",
+          "name": "Перец чёрный молотый",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        }
+      ],
+      "steps": [
+        {
+          "timer_sec": 540,
+          "timer_label": "Варить яйца",
+          "ingredient_ids": [
+            "i2"
+          ],
+          "n": 1,
+          "text": "Подготовьте все необходимые ингредиенты. Сварите 2 яйца вкрутую (8-9 минут после закипания воды). Остудите."
+        },
+        {
+          "timer_sec": 1500,
+          "timer_label": "Варить картофель",
+          "ingredient_ids": [
+            "i1"
+          ],
+          "n": 2,
+          "text": "Очистите и вымойте картофель. Разрежьте крупный картофель на части, небольшой оставьте целым. Отварите картофель в кипящей подсоленной воде до мягкости, примерно 25 минут. Слейте воду."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i2",
+            "i4"
+          ],
+          "n": 3,
+          "text": "Остывшие яйца очистите и нарежьте небольшими кубиками. Отправьте в глубокую тарелку. Мелко нарежьте зелёный лук и добавьте к яйцам."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i3"
+          ],
+          "n": 4,
+          "text": "Рабочую поверхность присыпьте мукой. Выложите 1/6 часть картофельной массы, сформировав небольшую лепёшку. В центр положите 1-1,5 чайной ложки яичной начинки."
+        },
+        {
+          "timer_sec": 300,
+          "timer_label": "Обжаривать зразы",
+          "ingredient_ids": [
+            "i5"
+          ],
+          "n": 5,
+          "text": "Разогрейте растительное масло в сковороде. Обжарьте картофельные зразы по 5 минут с каждой стороны на небольшом огне."
+        }
+      ],
+      "updated_at": "2026-11-16T19:51:51Z"
     }
   ]
 }
