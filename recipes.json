@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "published_at": "2026-11-15T23:12:50Z",
+  "published_at": "2026-11-16T19:38:55Z",
   "recipes": [
     {
       "id": "oladi-na-kefire",
@@ -3118,6 +3118,345 @@
         }
       ],
       "updated_at": "2026-11-15T23:12:50Z"
+    },
+    {
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": "7610bbc3-7a7f-40cd-a3d9-20ec56adcbdd",
+      "description": null,
+      "form": null,
+      "tags": [
+        "завтрак",
+        "выпечка"
+      ],
+      "total_time_min": 30,
+      "photo": null,
+      "draft_text": null,
+      "id": "bliny-presnye",
+      "title": "Блины пресные",
+      "servings": 4,
+      "icon": "🧇",
+      "ingredients": [
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i1",
+          "name": "Молоко",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "category": "молочное"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i2",
+          "name": "Яйцо",
+          "amount": 1,
+          "unit": "шт",
+          "scalable": true,
+          "category": "яйца"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i3",
+          "name": "Сахар",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i4",
+          "name": "Ванилин",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i5",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "гашеная",
+          "id": "i6",
+          "name": "Сода",
+          "amount": 0.5,
+          "unit": "ч.л.",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i7",
+          "name": "Растительное масло",
+          "amount": 1,
+          "unit": "ст.л.",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i8",
+          "name": "Мука",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "кипяток",
+          "id": "i9",
+          "name": "Вода",
+          "amount": 1.5,
+          "unit": "стакан",
+          "scalable": true,
+          "category": "напитки"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "для смазывания сковороды",
+          "id": "i10",
+          "name": "Сало или растительное масло",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "мясо"
+        }
+      ],
+      "steps": [
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i4",
+            "i5",
+            "i6",
+            "i7",
+            "i8"
+          ],
+          "n": 1,
+          "text": "Смешайте молоко, яйцо, сахар, ванилин, соль, соду, растительное масло и муку."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i9"
+          ],
+          "n": 2,
+          "text": "Активно помешивая, постепенно добавьте кипяток до консистенции жидкой сметаны."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i10"
+          ],
+          "n": 3,
+          "text": "Выпекайте блины на хорошо разогретой и смазанной маслом сковороде."
+        }
+      ],
+      "updated_at": "2026-11-16T19:38:55Z"
+    },
+    {
+      "version": 1,
+      "origin": "shared",
+      "status": "done",
+      "replaces": "b03c4b90-ca21-4577-88e8-6137f195d223",
+      "description": null,
+      "form": null,
+      "tags": [
+        "закуска",
+        "из печени"
+      ],
+      "total_time_min": 40,
+      "photo": null,
+      "draft_text": null,
+      "id": "vanduliki-iz-pecheni",
+      "title": "Вандулики из печени",
+      "servings": 4,
+      "icon": "🍴",
+      "ingredients": [
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i1",
+          "name": "Печень",
+          "amount": 1000,
+          "unit": "г",
+          "scalable": true,
+          "category": "мясо"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i2",
+          "name": "Сало",
+          "amount": 300,
+          "unit": "г",
+          "scalable": true,
+          "category": "мясо"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i3",
+          "name": "Лук",
+          "amount": 5,
+          "unit": "шт",
+          "scalable": true,
+          "category": "овощи-фрукты"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i4",
+          "name": "Яйца",
+          "amount": 2,
+          "unit": "шт",
+          "scalable": true,
+          "category": "яйца"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i5",
+          "name": "Мука",
+          "amount": 4,
+          "unit": "ст.л.",
+          "scalable": true,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i6",
+          "name": "Соль",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i7",
+          "name": "Специи",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "специи"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": "для жарки",
+          "id": "i8",
+          "name": "Масло растительное",
+          "amount": null,
+          "unit": "по вкусу",
+          "scalable": false,
+          "category": "бакалея"
+        },
+        {
+          "round_step": null,
+          "optional": false,
+          "note": null,
+          "id": "i9",
+          "name": "Сметана",
+          "amount": 1,
+          "unit": "стакан",
+          "scalable": true,
+          "category": "молочное"
+        }
+      ],
+      "steps": [
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i1",
+            "i2",
+            "i3",
+            "i6"
+          ],
+          "n": 1,
+          "text": "Печень, сало и лук пропустить через мясорубку. Посолить."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i4",
+            "i5"
+          ],
+          "n": 2,
+          "text": "Добавить яйца и муку. Замешать смесь, чтобы получилась консистенция как на оладьи."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i8"
+          ],
+          "n": 3,
+          "text": "Обжарить вандулики на растительном масле с двух сторон."
+        },
+        {
+          "timer_sec": null,
+          "timer_label": null,
+          "ingredient_ids": [
+            "i7",
+            "i9"
+          ],
+          "n": 4,
+          "text": "Сложить готовые изделия в утятницу, залить смесью сметаны со специями (можно добавить немного майонеза)."
+        },
+        {
+          "timer_sec": 1200,
+          "timer_label": "Запекание",
+          "ingredient_ids": [],
+          "n": 5,
+          "text": "Запечь в духовке 20 минут при температуре 160°C."
+        }
+      ],
+      "updated_at": "2026-11-16T19:38:55Z"
     }
   ]
 }
